@@ -1,0 +1,72 @@
+<!-- Basic template of a HTML is to enter shift 1. this 
+just makes a boiler plate for you -->
+
+<!DOCTYPE html> <!-- This line is the first line you declare.
+                    it basically instructs your browser that this is a 
+                    HMTL file  -->
+<html lang="en"> <!-- Your HtML code is nested inside this element. 
+                    starts with  <html ends with </html> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching now...</h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            <header>
+                <a href="#">yummy.eats</a>
+            </header>
+
+            <h1><span>The Healthy</span> Eating Experience</h1>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam nesciunt alias accusantium, sapiente ratione recusandae. Velit vel corporis illo cum?
+            </p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form_left">
+                        <label for="city">Enter your city</label>
+                        <input type="text" name="city" id="city">
+                        <p>Example: "Toronto</p>
+                    </div>
+                    <input type="button" value="Find Food Now" id="cta-btn">
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Authentic. Awesome.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur recusandae cumque fugiat nesciunt quibusdam sit omnis delectus harum eaque!</p>
+        </div>
+        <img src="images/food.jpg" alt="Picture of food">
+    </section>
+
+    <script>
+
+        let btn = document.getElementById('cta-btn');
+        let overlay = document.getElementById('overlay');
+
+        btn.addEventListener('click', () => {
+            overlay.style.display = 'grid';
+        })
+
+    </script>
+</body>
+</html>
+
+
+<!-- Other elements to keep in mind are the
+    head 
+    body-->
+
+
+

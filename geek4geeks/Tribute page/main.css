@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Dosis';
+}
+
+table, td {
+    border: 2px solid grey;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+#top{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#top div {
+    background-color: lightgrey ;
+    display: inline-block;
+    width: 80%;
+    height: 85vh;
+}
+
+#top p {
+    font-size: 25px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.secondchild {
+    float: left;
+    /* width: 50%; */
+}
+
+#middle-left {
+    padding: 40px 0 40px 40px;
+    margin: 0;
+}
+
+#middle-right {
+    position: absolute;
+    right: 2%;
+    bottom: -95%;
+}
+
+#rightside {
+    border: none;
+}
+
+.column {
+    background-color: rgba(231, 231, 231, 0.233);
+    width: 700px;
+}
+
+#middle-left table tr td {
+    padding: 10px;
+}
+
+.f-column, th, .table-column, .table-1column {
+    text-align: center;
+}
+
+.table-column, .table-1column {
+    font-size: small;
+    padding: 3px;
+}
+
+#right-table {
+    border-bottom: none;
+}
+
+.table-column {
+    border-color: lightgrey;
+}
+
+.table-1column {
+    border: none;
+}
+
+#right-table, .table-column {
+    border-top: none;
+}
+
+#bottomright table tr {
+    border: 1px;
+}
+
+#topright, h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#bottom {
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+blockquote, p, a {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(33, 33, 211);
+}

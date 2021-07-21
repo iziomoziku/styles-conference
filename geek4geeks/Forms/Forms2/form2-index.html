@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <section id="top">
+            <h1>Good Vibes Form</h1>
+        </section>
+
+        <div id="bottom">
+            <div id="class-top-wrapper">
+                <p>Tell us something positive that happened to you today.</p>
+            </div>
+
+            <div id="class-bottom-wrapper">
+                <form>
+                    <div class="form">
+                        <label class="label" for="fname">Name</label>
+                        <input class="option input" type="text" id="fname" placeholder="Enter your name">
+                    </div>
+
+                    <div class="form">
+                        <label class="label" for="femail">Email</label>
+                        <input class="option input" type="email" id="email" placeholder="Enter your email address">
+                    </div>
+
+                    <div class="form">
+                        <label class="label" for="fnumber">On scale of 1-10, how good was it?</label>
+                        <input class="option input" type="number" id="fnumber" min="1" max="10" placeholder="Enter a number between 1 and 10">
+                    </div>
+
+                    <div class="form">
+                        <!-- <span>Where did it happen?</span> -->
+                        <label class="label" for="">Where did it happen?</label>
+                        <select class="input" id="where-it-happened">
+                            <option value="">At home</option>
+                            <option value="">On my commute</option>
+                            <option value="">At work</option>
+                            <option value="">On the street</option>
+                            <option value="">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form" id="radio-wrapper">
+                        <div id="radio-left">
+                            <label class="label"> At what time of day did it happen? </label>
+                        </div>
+
+                        <div id="radio-right">
+                            <div class="radio">
+                                <input type="radio" id="Morning" name="radiooption">
+                                <label for="Morning">Morning</label>
+                            </div>
+
+                            <div class="radio">
+                                <input type="radio" id="Afternoon" name="radiooption">
+                                <label for="Afternoon">Afternoon</label>
+                            </div>
+
+                            <div class="radio">
+                                <input type="radio" id="Evening" name="radiooption">
+                                <label for="Evening">Evening</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form" id="checkbox-wrapper">
+                        <div id="checkbox-left">
+                            <label class="label">What emotions did you experience?</label><br>
+                            <label class="label">(Select all that apply)</label>
+                        </div>
+                        
+                        <div id="checkbox-right">
+                            <div class="check-box">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Excited</label>
+                            </div>
+
+                            <div class="check-box">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Humbled</label>
+                            </div>
+
+                            <div class="check-box">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Elated</label>
+                            </div>
+
+                            <div class="check-box">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Loved</label>
+                            </div>
+
+                            <div class="check-box">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox">Enthusiastic</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form" id="textarea-wrapper">
+                        <div id="textarea-left">
+                            <label class="label" for="your-experience">Please describe your positive experience.</label>
+                        </div>
+                        <div id="textarea-right">
+                            <textarea class="option input" id="your-experience" cols="30" rows="3" placeholder="Enter your experience here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form" id="button">
+                        <input class="submit" type="button" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

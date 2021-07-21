@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+.box {
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    /* width: 300px; */
+    
+}
+
+#rightside {
+    right: 20%;
+    top: 30%;
+    background-color: #FFFFFF;
+    transform: scale(1.7);
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+}
+
+#leftside {
+    right: 50%;
+    top: 15%;
+    transform: scale(5);
+    transform: translate(-65%);
+}
+
+h1 {
+    color: blue;
+    margin:0;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 10px 0 0 0;
+    font-size: 27px;
+}
+
+#facebookbottom {
+    margin-top: 20px;
+}
+
+.profilepic {
+    display: inline-block;
+}
+
+#pic1 {
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+#rightpic, #leftpic {
+    background-color: white;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border:thick;
+    /* border: 0.5px solid grey; */
+    border: 0.5px solid#E7E9EB;
+}
+
+.login-box #password input {
+    margin-top: 10px;
+}
+
+
+.login-box #login input {
+    background-color: #1878F3;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+#span{
+    color: #1878F3;
+    /* margin: 0 auto; */
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.login-box #button {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.login-box #button input {
+    background-color: #42B82B;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+hr {
+    /* transform: scaleX(0.7); */
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #DADDE1;
+}
+
+/* Celeb Page */
+
+#celebpage {
+    position: absolute;
+    display: inline-block;
+    top: 80%;
+    right: 18%;
+    font-size: 20px;
+}

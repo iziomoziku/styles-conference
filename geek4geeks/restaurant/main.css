@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px 30px;
+    margin: 0;
+
+    /* background-image: url(https://img.freepik.com/free-vector/topographic-contour-line-map-background_1017-14334.jpg?size=626&ext=jpg
+    ), linear-gradient(
+    110deg
+    , #f93d66a2, #6e47d973);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    /* background: white; */
+    /* background-attachment: fixed; */ 
+}
+
+#container {
+    background-color: lightblue;
+}
+
+#buttons input {
+    background-color: #FEC62E;
+    border: 0 none;
+    width: 19.4%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+    font-weight: bolder;
+}
+
+#Terry-taco {
+    position: absolute;
+    top: 40%;
+    padding: 50px;
+}
+
+#Terry-taco h2, #Terry-taco span {
+    background-color: #FEC62E;
+    padding: 5px;
+}
+
+#buttons input:nth-child(5) {
+    margin-right: 0;
+}
+
+#hero-section {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+#hero-section-left-side {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+    width: 65%;
+    height: 500px;
+    background-position: center;
+    background-position: center;
+    float: left;
+}
+
+#hero-section-right-side {
+    float: left;
+    width: 33.3%;
+    height: 500px;
+    margin-left: 20px;
+}
+
+#Tacos-top, #Kombucha-bottom {
+    height: 240px;
+    background-color: #FEC62E;
+}
+
+#Tacos-top {
+    margin-bottom: 20px;
+}
+
+#main-menu {
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.menus {
+    margin-right: 20px;
+    background-color:white;
+    float: left;
+    width: 23.75%;
+    height: 200px;
+    text-align: center;
+}
+
+.menus:nth-child(4) {
+    margin-right: 0;
+}
+
+#cta {
+    background-color: white;
+    margin-top: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+#cta img {
+    display: inline-block;
+}
+
+#cta div {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+}
+
+#cta div #header {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+#cta div input {
+    background-color: #FEC62E;
+    border: 0 none;
+    padding: 10px 20px;
+}
+

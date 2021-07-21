@@ -1,0 +1,40 @@
+header {
+    margin-left: 20px;
+}
+
+body {
+    background-color: black;
+}
+
+h1.name {
+    text-align: center;
+    margin-top: 10%;
+}
+
+figure.profilewrapper {
+    text-align:center;
+}
+
+div.Profile {
+    display:inline-block;
+    cursor: pointer;
+}
+
+.name {
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+

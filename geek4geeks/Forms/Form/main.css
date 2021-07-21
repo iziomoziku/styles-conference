@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-color: rgb(84, 84, 160);
+    background-blend-mode: lighten;
+    background-size: contain;
+}
+
+#container {
+    margin: auto;
+    width: 60%;
+    color: white;
+}
+
+#top {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+#bottom {
+    background-color: #2E2D4E;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.action {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.section {
+    margin: 20px 0;
+} 
+
+p {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#button input {
+    background-color: #38AF65;
+    color: white;
+    cursor: pointer;
+}
+
+.select1 {
+    background-color: yellow;
+}
