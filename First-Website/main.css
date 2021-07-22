@@ -356,9 +356,187 @@ footer .container .nav ul a {
 /* ------------  */
 
 table, td {
-    border: 1px solid black;
+    border: 1px solid rgba(97, 97, 97, 0.226);
     border-collapse: collapse;
+    width: 950px;
+    margin-bottom: 70px;
 }
+
+table {
+    border: none;
+}
+
+td {
+    width: 316.7px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 30px 0;
+}
+
+.venue, .time {
+    border-bottom: none;
+    width: 100px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.venue {
+    color: #648880;
+    font-size: 25px;
+    font-weight: 50;
+}
+
+.event-action span{
+    color: #648880;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.event-action {
+    color: #8B8B8B;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.timeline {
+    color: #aab2b9;
+}
+
+.time {
+    text-transform: uppercase;
+    color: #aab2b9
+}
+
+.none-display {
+    visibility: hidden;
+}
+
+
+/* --------- */
+/* Venue page */
+/* ---------- */
+
+.location {
+    text-transform: capitalize;
+}
+
+.venue-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.venue-location .theatre-info {
+    width: 300px;
+    color: #aab2b9;
+}
+
+iframe {
+    width: 600px;
+    height: 250px;
+    margin-left: 70px;
+}
+
+.address-contact {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.address-contact:first-child {
+    margin-top: 60px;
+}
+
+.theatre {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #648880;
+    font-weight: 100;
+    margin-bottom: 10px
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.contact-info a {
+    color: #648880;
+    text-transform: lowercase;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: rgba(128, 128, 128, 0.315);
+}
+ 
+
+/* --------- */
+/* Register   */
+/* ---------- */
+
+
+.register-wrapper {
+    display: flex;
+    margin-top: 60px;
+}
+
+.register-wrapper .content {
+    width: 700px;
+    margin-right: 40px;
+    color: #aab2b9;
+}
+
+.conference {
+    color: #648880;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.price {
+    color: #aab2b9;
+    margin-bottom: 30px;
+}
+
+.attend {
+    text-transform: capitalize;
+    margin: 30px 0;
+    color: #648880;
+    font-size: 18px;
+}
+
+.reasons-to-attend ul { 
+    padding-left: 30px;
+    list-style: square;
+    margin-bottom: 60px;
+}
+
+/* forms */
+
+.form-info label {
+    color: #648880;
+}
+
+.form-info input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    margin: 5px 0 25px 0;
+    width: 300px;
+}
+
+.passes input {
+    width: 60px;
+}
+
+.purchase input {
+    width: 150px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    background-color:  #648880;
+    cursor: pointer;
+}
+
+
+
 
 
     
