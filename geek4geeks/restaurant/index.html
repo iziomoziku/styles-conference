@@ -5,71 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <section id="buttons">
-            <input type="button" value="TACOS">
-            <input type="button" value="BEARS">
-            <input type="button" value="WINES">
-            <input type="button" value="DESERTS">
-            <input type="button" value="RESERVATIONS">
+    <div class="container">
+        <section class="nav">
+            <div class="nav-menu nav-menu_desktop">
+                <a href="#">TACOS</a>
+                <a href="#">BEARS</a>
+                <a href="#">WINES</a>
+                <a href="#">DESERTS</a>
+                <a href="#">RESERVATIONS</a>
+            </div>
+
+            <div class="nav-menu nav-menu_mobile">
+                <a href="#">TACOS</a>
+                <a href="#">BEARS</a>
+                <a href="#">WINES</a>
+                <a href="#">DESERTS</a>
+                <a href="#">RESERVATIONS</a>
+            </div>
         </section>
 
-        <section id="hero-section">
-            <div id="hero-section-left-side">
-                <div id="Terry-taco">
-                    <h2>Terry's Taco Joint</h2>
+        <section class="hero">
+            <div class="hero-background">
+                <div class="hero-content">
+                    <h1>Terry's Taco Joint</h1>
                     <span>Pretty Good Tacos!</span>
                 </div>
             </div>
-            <div id="hero-section-right-side">
-                <div id="Tacos-top" class="yellow-background">
-                    <p class="price">$1.99</p>
+            <div class="hero-prices">
+                <div class="hero-taco-price">
+                    <p>$1.99</p>
                     <small>Tacos</small>
                 </div>
-                <div id="Kombucha-bottom" class="yellow-background">
-                    <p class="price">$3.99</p>
+                <div class="hero-Kombucha-price">
+                    <p>$3.99</p>
                     <small>Kombucha</small>
                 </div>
             </div>
         </section>
 
-        <section id="main-menu">
-            <div class="menus" id="Tacos">
-                <span>Tacos</span>
+        <section class="main-menu">
+            <div class="main-menu-item">
+                <span class="main-menu-icon">🌮</span>
+                <h3>Tacos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
             </div>
-            <div class="menus" id="Beer">
-                <span>Beer</span>
+            <div class="main-menu-item">
+                <span class="main-menu-icon">🍺</span>
+                <h3>Beer</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
             </div>
-            <div class="menus" id="Wine">
-                <span>Wine</span>
+            <div class="main-menu-item">
+                <span class="main-menu-icon">🍷</span>
+                <h3>Wine</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
             </div>
-            <div class="menus" id="Music">
-                <span>Music</span>
+            <div class="main-menu-item">
+                <span class="main-menu-icon">🎵</span>class="main-menu-icon"
+                <h3>Music</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, assumenda.</p>
             </div>
         </section>
 
-        <section id="cta">
-            <img src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png" alt="">
-            <div>
-                <p id="header">Featured Taco</p>
+        <section class="cta">
+            <img class="cta-img" src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png" alt="">
+            <div class="cta-content">
+                <h4>Featured Taco</h4>
                 <p>Slim Profile, easy to hold and loaded with cheese.</p>
                 <p>This is the one you have been waiting for</p>
                 <input type="button" value="Learn More &#8594;">
             </div>
         </section>
 
-        <section id="instant-gram"><p>Instant Grams</p></section>
+        <section class="divider">
+            <span>Instant Grams</span>
+        </section>
 
-        <section id="pics"></section>
+        <section class="images">
+            <img src="https://source.unsplash.com/random/201x201" alt="">
+            <img src="https://source.unsplash.com/random/202x202" alt="">
+            <img src="https://source.unsplash.com/random/203x203" alt="">
+            <img src="https://source.unsplash.com/random/204x204" alt="">
+            <img src="https://source.unsplash.com/random/205x205" alt="">
+            <img src="https://source.unsplash.com/random/206x206" alt="">
+            <img src="https://source.unsplash.com/random/207x207" alt="">
+            <img src="https://source.unsplash.com/random/207x208" alt="">
+            <img src="https://source.unsplash.com/random/207x209" alt="">
+            <img src="https://source.unsplash.com/random/207x210" alt="">
 
-
+        </section>
     </div>
 </body>
 </html>
